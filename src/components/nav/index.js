@@ -2,6 +2,7 @@ import React from 'react'
 import {Link} from 'react-router-dom';  
 import { Menu, Dropdown ,Button} from 'antd';
 import { DownOutlined } from '@ant-design/icons';
+import './index.scss';
  export default class Nav extends React.Component{
     logout(){
 

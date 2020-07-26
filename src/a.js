@@ -10,7 +10,7 @@ class AAA extends Component {
       componentDidMount () {
           store.subscribe(this.listerner.bind(this));
       }
-      addData(){
+      addData=()=>{
           // action
             //创建描述性对象action
             const myaction = {

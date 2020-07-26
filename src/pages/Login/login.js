@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Form, Input, Button, Checkbox } from 'antd';
-
+import './login.scss'
 const layout = {
   labelCol: {
     span: 8,
@@ -26,6 +26,8 @@ class Login extends Component{
   }
   render(){
     return (
+      <div className="container">
+        <div className="box">
         <Form
           {...layout}
           name="basic"
@@ -71,6 +73,10 @@ class Login extends Component{
             </Button>
           </Form.Item>
         </Form>
+
+        </div>
+      </div>
+        
     )
   }
 };
